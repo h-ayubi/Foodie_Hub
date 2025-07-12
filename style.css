@@ -1,0 +1,57 @@
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.social-icon i {
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover i {
+  color: #000;
+}
+.hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('images/img-hero.jpg') center/cover no-repeat;
+}
+
+.menu-card {
+  background-color: #f0b734;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card .card-title,
+.menu-card .card-text {
+  color: #fff;
+}
+
+.menu-card .fw-bold {
+  color: #000;
+}
+
+.menu-heading {
+  font-family: 'Comfortaa', cursive;
+  color: #000;
+}
+
+
+.badge-available {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.badge-unavailable {
+  background-color: #dc3545;
+  color: #fff;
+}
+
